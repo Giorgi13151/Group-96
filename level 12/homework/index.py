@@ -1,5 +1,5 @@
 number = int(input("Enter Your Number:"))
-if number / 2 == 0:
+if number % 2 == 0:
     print('Even')
 else:
     print("odd")
@@ -13,16 +13,16 @@ else:
     print("Its Cold")
 
 num = int(input("Enter Your Number: "))
-if  num / 2==0:
+if  num % 2==0:
     print("Positive even")
-elif num / 3==0:
+elif num % 2!=0:
     print("Positive Odd")
 else:
     print("Negative")
 
 
 user_number = int(input("Enter Your Number: "))
-if user_number / 2==0:
+if user_number % 2==0:
     print("Your Number Is Even")
 else:
     print("Odd")
